@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="jQuery.js"></script>
+<script>
+    $(document).ready(function(){
+            $(".contenido").hide();
+            $(".principal").click(function(){
+                $(".contenido").slideToggle("2000");
+            });
+        });
+</script>
+<script>
+    $(document).ready(function(){
+        var cartactual=1;
+        $(".card1").show();
+        $(".card2,.card3").hide();
+        $(".button1").click(function(){
+            if (cartactual === 1) {
+                $(".card1").fadeOut(1000);
+                $(".card2").fadeIn(1500);
+                cartactual = 2;
+            }else if (cartactual ===2 ) {
+                $(".card2").fadeOut(1000);
+                $(".card3").fadeIn(1500);
+                cartactual = 3;
+            }else { 
+                $(".card3").fadeOut(1000);
+                $(".card1").fadeIn(1500);
+                cartactual = 1;
+            };
+        })
+    })
+
+    $(document).ready(function(){
+        var cartactual=1;
+        $(".card4").show();
+        $(".card5,.card6").hide();
+        $(".button2").click(function(){
+            if (cartactual === 1) {
+                $(".card4").fadeOut(1000);
+                $(".card5").fadeIn(1500);
+                cartactual = 2;
+            }else if (cartactual ===2 ) {
+                $(".card5").fadeOut(1000);
+                $(".card6").fadeIn(1500);
+                cartactual = 3;
+            }else { 
+                $(".card6").fadeOut(1000);
+                $(".card4").fadeIn(1500);
+                cartactual = 1;
+            };
+        })
+    })
+    $(document).ready(function(){
+        var cartactual=1;
+        $(".card7").show();
+        $(".card8,.card9").hide();
+        $(".button3").click(function(){
+            if (cartactual === 1) {
+                $(".card7").fadeOut(1000);
+                $(".card8").fadeIn(1500);
+                cartactual = 2;
+            }else if (cartactual ===2 ) {
+                $(".card8").fadeOut(1000);
+                $(".card9").fadeIn(1500);
+                cartactual = 3;
+            }else { 
+                $(".card9").fadeOut(1000);
+                $(".card7").fadeIn(1500);
+                cartactual = 1;
+            };
+        })
+    })
+
+
+
+
+</script>
+
+    <title>Document</title>
+
+</head>
+<body>
+        <header>
+            <h1 class="titulo"><a href="inicio.html">THE KITCHEN</a></h1>
+            <div class="desplegable">
+        <div class="principal">
+            <ul>
+                <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/menu--v6.png" alt="menu--v6"/>  
+            </ul>
+        </div>
+        <div class="contenido">
+            <ul class="navegador">
+                <li>
+                    <a href="inicio.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="tipos de platos.html">Tipos de platos</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
+        </header>
+    <main> 
+        <div class="contenidos">
+            <h2>¿QUE SON LOS BOWLS DE COMIDA</h2>
+
+        <h4>Los bowls son una peculiar mezcla de vegetales, frutas y granos, estos últimos los ingredientes estrella. Los alimentos con grasas buenas que podemos encontrar en muchos bowls, como el aguacate, son magníficos para darle nutrición y cuerpo, ¡pero son los granos las verdaderas estrellas! </h4>
+         <br>
+         <br>
+         <h4>Un bowl puede tener la ligereza de una ensalada, pero no es una ensalada como tal. Son 3 los tipos de bowls más comunes y sobre los cuales se pueden hacer distintas y exóticas combinaciones: bowls de grano, bowls de noodles y bowls vegetarianos. Es esta versatilidad la que hace de los bowl y sus ingredientes una alternativa sencilla, práctica y deliciosa que ofrecer a los paladares exigentes.</h4>
+        
+            
+            <div class="carta1">
+                <button class="button1">Siguiente</button>
+
+            <div class="card1" >
+                
+                
+                    <img src="bowl-de-arroz-con-batata-aguacate-y-alubias_version_1652874827.jpg" alt="">
+                
+                <h3>BOWL 1. Bowl de Arroz con Batata, Aguacate y frjoles </h3>
+                <p>A este bowl de arroz con batata, aguacate y alubias rojas (o frijoles) no le falta de nada porque ¡lo tiene todo!</p>
+                <a href="arroz con batata.html">preparacion</a>
+            </div> 
+            <div class="card2">
+                
+                <img src="Crujiente-1.png" alt="">
+            
+            <h3>BOWL 2. Garbanzos crujientes y mijo con remolacha y calabacín y salsa de anacardos.</h3>
+            <p>Garbanzos extremeños fritos, semillas de calabaza, mijo con remolacha y calabacín al horno y todo ello acompañado de salsa de anacardos..</p>
+            <a href="garbanzos.html">preparacion</a>      
+
+        </div>  
+            <div class="card3">
+                
+                    <img src="huevo.jpg" alt="">
+                
+                <h3>BOWL 3. Huevos con verduras</h3>
+                <p>Esta es una receta de quinoa que llega repleta de beneficios para la salud, sin casi grasa y muy sabrosa.</p>
+                <a href="huevos con verduras.html">preparacion</a>  
+            </div>
+        </div>
+
+            
+            <div class="contenidos">
+            <h2>SUSHI</h2>
+            <h4>
+                El sushi es un plato tradicional japonés elaborado con arroz cocido con vinagre de arroz, azúcar y sal y combinado con otros ingredientes como pescados crudos, mariscos, verduras, etc.</h4>
+            <br>
+            <br>
+            <h4>El arroz es el ingrediente principal del sushi. Se cocina con vinagre de arroz, azúcar y sal para darle un sabor ácido y dulce. El arroz se suele servir con otros ingredientes, como pescado crudo, mariscos, verduras o huevos.</h4>
+            <br>
+            <br>
+            <h4>El pescado crudo es el ingrediente más popular del sushi. El pescado más utilizado es el atún, el salmón, el pez mantequilla y el pez espada. El pescado se suele cortar en rodajas finas y se sirve con el arroz</h4>
+            <div class="carta2">
+                <button class="button2"></button>
+            <div class="card4">
+                
+                    <img src="Nigiri.jpg" alt="">
+                
+                <h3>SUSHI 1. Nigiri de Salmon </h3>
+                <p>sushi compuesto por una bola de arroz sobre la que se sirve un trozo de pescado crudo finamente fileteado</p>
+                <a href="nigiri.html">preparacion</a>
+            </div>    
+    
+            <div class="card5">
+                
+                    <img src="sushui apanado.jpg" alt="">
+                
+                <h3>SUSHI 2. Sushi Tempura</h3>
+                <p>La tempura es un rebozado muy fino y crujiente. se ha convertido en una de las especialidades japonesas más valoradas en todo el mundo</p>
+                <a href="tempura.html">preparacion</a>  
+            </div>
+            <div class="card6">
+                
+                    <img src="maki.jpg" alt="">
+                
+                <h3>SUSHI 3. Maki</h3>
+                <p>El maki sushi consiste en un rollo de alga nori relleno de arroz y distintos ingredientes como pescado, marisco, frutas o verduras.</p>
+                <a href="maki.html">preparacion</a>      
+    
+            </div>
+        
+       
+        </div>
+    </div>
+        <div class="contenidos">
+            <h2><center>
+            <br>PLATOS 
+            <br>TIPICOS COLOMBIANOS</center>
+        </h2>
+        <H4>La gastronomía colombiana es una de las más ricas y variadas de América Latina. Es el resultado de la mezcla de las culturas indígenas, africanas y europeas que han habitado el país a lo largo de su historia.</H4>
+        <br>
+        <br>
+        <h4>Entre los platos típicos colombianos más populares se encuentran:</h4>
+        <div class="carta3">
+        <button class="button3">Siguiente</button>
+            <div class="card7">
+                
+                    <img src="sopa de novio.jpg" alt="">
+                
+                <h3>PLATO 1. Sopa de novio</h3>
+                <p>Suele comerse durante la Semana Santa, pero es también una comida para todos los días cuya preparación puede variar según la región en la que se haga</p>
+                <a href="sopa de novio.html">preparacion</a>
+            </div>    
+    
+            <div class="card8">
+                
+                    <img src="changua.jpg" alt="">
+                
+                <h3>PLATO 2. changua</h3>
+                <p>La changua es una sopa de desayuno a base de leche y contiene huevos, queso derretido, pan, cebolla larga y cilantro.</p>
+                <a href="changua.html">preparacion</a>  
+            </div>
+            <div class="card9">
+                
+                    <img src="mute.jpg" alt="">
+                
+                <h3>PLATO 3. mute</h3>
+                <p>La sopa de mute o mute es como se conoce en algunas regiones de Colombia a una sopa típica tradicional.​</p>
+                <a href="mute.html">preparacion</a>      
+    
+            </div>
+        
+       
+        </div>
+
+    </div>
+        
+       
+        
+
+    </main>
+    <footer >
+        <div class="pie">
+        <ion-icon name="logo-facebook"></ion-icon>
+        <a href="https://www.facebook.com/">siguenos facebook</a>
+    
+        <ion-icon name="logo-twitter"></ion-icon>
+        <a href="https://twitter.com/">siguenos twitter</a>
+   
+       
+        <ion-icon name="logo-whatsapp"></ion-icon>
+        <a href="https://web.whatsapp.com/">siguenos whatsapp</a>
+    
+       
+        <ion-icon name="logo-instagram"></ion-icon>
+        <a href="https://www.instagram.com/">siguenos instagram</a>
+    </div>
+</footer>
+    
+</body>
+</html>
